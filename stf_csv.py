@@ -109,8 +109,7 @@ def debuging_reset():
         f.write('')
 
 def stock_management():
-    with open('sales.csv','a',encoding="euckr") as f:
-        f.write(menu_stocks[choice])
+    print
 
 
 def print_store():
